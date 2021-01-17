@@ -54,3 +54,56 @@ nav a:hover {
 #about p {
   font-size: 32px;
 }
+
+section h2{
+  font-size: 40px;
+  margin-bottom: 48px;
+}
+
+#projects {
+  background-color: #38aecc;
+  padding: 64px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+.project-link {
+  max-width: 300px;
+  background-color: #183446;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 12px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-title {
+  margin: 16px 0;
+}
+
+
+.button{
+  background-color: #183446;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button:hover,
+.project-link:hover {
+  background-color: #ca1916;
+}
+
+#show_all {
+  margin-top: 48px;
+}
